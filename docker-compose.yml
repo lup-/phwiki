@@ -1,0 +1,39 @@
+version: "3.9"
+services:
+  web:
+    image: nginx
+    restart: ${RESTART}
+    ports:
+      - ${HTTP_PORT}:80
+    volumes:
+      - ./wiki:/var/www
+      - ./docker/nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - wiki
+
+  wiki:
+    build:
+      context: "."
+      dockerfile: "./docker/Dockerfile_wiki"
+    working_dir: "/var/www"
+    volumes:
+      - "./wiki:/var/www"
+      - "./docker/php/log-stdout.conf:/usr/local/etc/php-fpm.d/zz-log.conf"
+      - "./docker/php/upload.ini:/usr/local/etc/php/conf.d/upload.ini"
+      - "./docker/php/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini"
+      - "./docker/php/opcache-recommended.ini:/usr/local/etc/php/conf.d/opcache-recommended.ini"
+    depends_on:
+      - database
+
+  database:
+    image: mysql:5.7
+    ports:
+      - ${DB_PORT}:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=${DB_PASSWORD}
+      - MYSQL_USER=${DB_USERNAME}
+      - MYSQL_PASSWORD=${DB_PASSWORD}
+      - MYSQL_DATABASE=${DB_DATABASE}
+    volumes:
+      - "./database/data:/var/lib/mysql"
+      - "./database/entrypoint:/docker-entrypoint-initdb.d"

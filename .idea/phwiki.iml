@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/wiki/includes/composer" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/pleonasm/bloom-filter" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/justinrainbow/json-schema" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/base-convert" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/at-ease" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/pear/pear_exception" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/pear/net_smtp" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/wrappedstring" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/pear/mail" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/ip-utils" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/pear/mail_mime" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/purtle" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/zordius/lightncandy" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/html-formatter" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/pear/net_url2" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/pear/pear-core-minimal" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/ip-set" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/pear/console_getopt" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/minify" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/pear/net_socket" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/utfnormal" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/zest-css" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/request-timeout" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/cldr-plural-rule-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/composer-merge-plugin" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/normalized-exception" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/cdb" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/timestamp" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/liuggio/statsd-php-client" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/less.php" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/php-session-serializer" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/services" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/wikipeg" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/parsoid" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/xmp-reader" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/common-passwords" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/equivset" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/cssjanus/cssjanus" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/scoped-callback" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/opis/json-schema" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/wait-condition-loop" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/relpath" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/oojs/oojs-ui" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/shellbox" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/idle-dom" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/running-stat" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/christian-riesen/base32" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/remex-html" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/jakobo/hotp-php" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/wikimedia/object-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/wiki/vendor/psr/log" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
